@@ -9,7 +9,6 @@ const Characters = ({people})=>{
 					return(
 						<Profile
 							key={i}
-							id={[i]}
 							name ={people[i].name}
 							gender={people[i].gender}
 							height={people[i].height}

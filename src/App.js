@@ -45,7 +45,7 @@ class App extends Component{
 
 		return(
 			<div className='tc'>
-				<h1 className='white'>Star War Character</h1>
+				<h1 className='white'>Star Wars Character</h1>
 				<SearchBox handleSearch = {this.onHandleSearch} />
 				<ScrollBox>
 				<Characters people={filteredPeople}/>

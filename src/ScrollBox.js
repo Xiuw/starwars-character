@@ -1,10 +1,9 @@
 import React from 'react';
 
-
 const ScrollBox = (props) => {
 	return(
 		<div style={box}>
-			{props.children}
+			{props.children} 
 		</div>
 
 	)
@@ -12,7 +11,6 @@ const ScrollBox = (props) => {
 
 const box = {
 	overflowY:'scroll',
-	
 	height:'800px'
 }
 
